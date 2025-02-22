@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, createBrowserRouter, createRout
 import React from "react";
 import { Provider } from "react-redux";
 import {store} from './store/Store'
-import Signup from "./Components/SignUp";
+import Signup from "./Components/Signup";
 import Login from "./Components/Login";
 import Home from "./Components/Home";
 import PrivateRoute from "./Components/PrivateRoute";
